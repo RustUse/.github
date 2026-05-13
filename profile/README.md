@@ -1,52 +1,46 @@
-# RustUse
+<p align="center">
+  <img src="./construction.png" alt="RustUse under construction" width="100%" />
+</p>
 
-Composable sets of primitive Rust utility crates.
+<h1 align="center">RustUse</h1>
+
+<p align="center">
+  <strong>Composable sets of primitive Rust utility crates for fellow Rustaceans.</strong>
+</p>
+
+<p align="center">
+  <a href="https://rustuse.org">Documentation</a>
+</p>
 
 RustUse is an open-source collection of small, focused Rust utility crates organized into practical `use-*` sets.
 
-Each set is intended to stay narrow, documented, tested, and composable.
+Each set is intended to stay narrow, documented, tested, and easy to compose without pulling in heavy frameworks or unnecessary dependencies.
 
-## Sets
-
-Current and emerging sets include:
-
-- `use-math`
-- `use-color`
-- `use-text`
-- `use-time`
-- `use-wave`
-- `use-acoustics`
-- `use-optics`
-- `use-chemistry`
-- `use-units`
-- `use-measure`
-- `use-rust`
-- `use-id`
-- `use-validate`
-- `use-physics`
-
-## Documentation
-
-https://rustuse.org
-
-## Contributing
-
-Contributors and maintainers are welcome.
+> [!WARNING]
+> RustUse is under active development.
+>
+> Any RustUse crate below version `0.3.0` is experimental and should not be used in production.
 
 ## Principles
 
 RustUse favors:
 
-- small crates
+- small crates with few or no dependencies
 - clear APIs
 - practical primitives
-- Rust 2024 edition
-- dual MIT or Apache-2.0 licensing
 - focused workspaces
-- minimal unnecessary dependencies
+- Rust 2024 edition
+- strong documentation
+- meaningful tests
 - composability over framework design
+- dual MIT or Apache-2.0 licensing
+
+## Contributing
+
+Contributors and maintainers are welcome.
+
+Useful contribution areas include crate design, documentation, examples, tests, benchmarks, API review, CI/CD, and release workflows.
 
 ## License
 
-RustUse projects are generally available under MIT or Apache-2.0, at your
-option, unless otherwise noted in a specific repository.
+RustUse projects are generally available under either the MIT License or the Apache License, Version 2.0, at your option, unless otherwise noted in a specific repository.
