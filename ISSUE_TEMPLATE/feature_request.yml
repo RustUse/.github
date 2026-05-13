@@ -1,0 +1,44 @@
+name: Feature request
+description: Request a feature for a RustUse repository, set, or crate.
+title: "feat: "
+labels:
+  - enhancement
+body:
+  - type: input
+    id: repository
+    attributes:
+      label: Affected repository or set
+      placeholder: use-math, use-text, use-validate
+    validations:
+      required: true
+  - type: input
+    id: crate
+    attributes:
+      label: Affected crate, if applicable
+      placeholder: use-color or N/A
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+    validations:
+      required: true
+  - type: textarea
+    id: use-case
+    attributes:
+      label: Use case
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed API or behavior
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context

@@ -1,0 +1,34 @@
+name: Documentation issue
+description: Report a docs gap, error, or improvement request.
+title: "docs: "
+labels:
+  - documentation
+body:
+  - type: input
+    id: repository
+    attributes:
+      label: Affected repository or docs page
+      placeholder: docs, use-text, rustuse.org/...
+    validations:
+      required: true
+  - type: input
+    id: crate
+    attributes:
+      label: Affected crate, if applicable
+      placeholder: use-word or N/A
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+    validations:
+      required: true
+  - type: textarea
+    id: improvement
+    attributes:
+      label: Suggested improvement
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context

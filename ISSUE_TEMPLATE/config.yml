@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: RustUse documentation
+    url: https://rustuse.org
+    about: Read the RustUse docs site.
+  - name: RustUse GitHub organization
+    url: https://github.com/RustUse
+    about: Browse the RustUse organization repositories.

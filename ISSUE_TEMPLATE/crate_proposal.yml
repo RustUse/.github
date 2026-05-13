@@ -1,0 +1,58 @@
+name: Crate proposal
+description: Propose a new crate for a RustUse set.
+title: "proposal: "
+labels:
+  - proposal
+body:
+  - type: input
+    id: crate-name
+    attributes:
+      label: Proposed crate name
+      placeholder: use-foo
+    validations:
+      required: true
+  - type: input
+    id: parent-set
+    attributes:
+      label: Parent set
+      placeholder: use-math, use-id, use-validate
+    validations:
+      required: true
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem it solves
+    validations:
+      required: true
+  - type: textarea
+    id: primitives
+    attributes:
+      label: Proposed primitives
+      description: List the core functions, types, or modules this crate should provide.
+    validations:
+      required: true
+  - type: textarea
+    id: use-cases
+    attributes:
+      label: Example use cases
+    validations:
+      required: true
+  - type: textarea
+    id: belongs
+    attributes:
+      label: Why this belongs in RustUse
+    validations:
+      required: true
+  - type: textarea
+    id: deps
+    attributes:
+      label: Dependency considerations
+      description: Note required dependencies and whether they can stay minimal.
+  - type: textarea
+    id: naming
+    attributes:
+      label: Naming alternatives
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context

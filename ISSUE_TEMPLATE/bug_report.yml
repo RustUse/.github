@@ -1,0 +1,60 @@
+name: Bug report
+description: Report a bug in a RustUse repository, crate, or workflow.
+title: "bug: "
+labels:
+  - bug
+body:
+  - type: input
+    id: repository
+    attributes:
+      label: Affected repository
+      placeholder: use-math, use-text, docs, rustuse
+    validations:
+      required: true
+  - type: input
+    id: crate
+    attributes:
+      label: Affected crate
+      placeholder: use-math, use-token, or N/A
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual behavior
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Reproduction steps
+      placeholder: |
+        1. ...
+        2. ...
+        3. ...
+    validations:
+      required: true
+  - type: input
+    id: rust-version
+    attributes:
+      label: Rust version
+      placeholder: rustc 1.95.0
+  - type: input
+    id: os
+    attributes:
+      label: Operating system
+      placeholder: Windows 11, macOS 15, Ubuntu 24.04
+  - type: textarea
+    id: context
+    attributes:
+      label: Additional context
