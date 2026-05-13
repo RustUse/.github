@@ -4,6 +4,19 @@ title: "docs: "
 labels:
   - documentation
 body:
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Root README
+        - Crate README
+        - API docs
+        - Examples
+        - Contributor onboarding
+        - Release or operations docs
+    validations:
+      required: true
   - type: input
     id: repository
     attributes:
@@ -32,3 +45,8 @@ body:
     id: context
     attributes:
       label: Additional context
+  - type: textarea
+    id: audience
+    attributes:
+      label: Who is blocked by this?
+      description: New users, contributors, maintainers, or downstream consumers.

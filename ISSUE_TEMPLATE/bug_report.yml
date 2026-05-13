@@ -4,6 +4,10 @@ title: "bug: "
 labels:
   - bug
 body:
+  - type: markdown
+    attributes:
+      value: |
+        Do not use this form for suspected security vulnerabilities. Follow the private reporting guidance in `SECURITY.md` instead.
   - type: input
     id: repository
     attributes:
@@ -32,12 +36,14 @@ body:
     id: actual
     attributes:
       label: Actual behavior
+      description: Include panic text, compiler output, screenshots, or logs when they help.
     validations:
       required: true
   - type: textarea
     id: steps
     attributes:
       label: Reproduction steps
+      description: Paste the smallest code sample, command, or sequence that reproduces the issue.
       placeholder: |
         1. ...
         2. ...
@@ -58,3 +64,12 @@ body:
     id: context
     attributes:
       label: Additional context
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Confirmation
+      options:
+        - label: I searched existing issues and did not find the same report.
+          required: true
+        - label: I used the smallest reproduction I could provide.
+          required: true

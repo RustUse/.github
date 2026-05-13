@@ -1,8 +1,17 @@
-blank_issues_enabled: true
+blank_issues_enabled: false
 contact_links:
   - name: RustUse documentation
     url: https://rustuse.org
     about: Read the RustUse docs site.
+  - name: RustUse contributing guide
+    url: https://github.com/RustUse/.github/blob/main/CONTRIBUTING.md
+    about: Review the shared contribution guidance and expectations.
+  - name: RustUse support guidance
+    url: https://github.com/RustUse/.github/blob/main/SUPPORT.md
+    about: Use the support policy for help, routing, and contributor questions.
+  - name: RustUse security policy
+    url: https://github.com/RustUse/.github/blob/main/SECURITY.md
+    about: Do not open public issues for vulnerabilities.
   - name: RustUse GitHub organization
     url: https://github.com/RustUse
     about: Browse the RustUse organization repositories.

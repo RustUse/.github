@@ -4,6 +4,10 @@ title: "feat: "
 labels:
   - enhancement
 body:
+  - type: markdown
+    attributes:
+      value: |
+        Feature requests should stay aligned with RustUse goals: small APIs, predictable dependencies, and clear validation behavior.
   - type: input
     id: repository
     attributes:
@@ -32,6 +36,13 @@ body:
     id: proposal
     attributes:
       label: Proposed API or behavior
+    validations:
+      required: true
+  - type: textarea
+    id: fit
+    attributes:
+      label: Why this belongs in RustUse
+      description: Explain why this should live in RustUse rather than staying in downstream application code or an external crate.
     validations:
       required: true
   - type: textarea
