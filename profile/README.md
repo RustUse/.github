@@ -2,10 +2,10 @@
   <img src="./construction.png" alt="RustUse under construction" width="100%" />
 </p>
 
-<h1 align="center">RustUse (<span style="color:rgb(244, 162, 97);">Under Construction</span>)</h1>
+<h1 align="center">RustUse (Under Construction)</h1>
 
 <p align="center">
-  <strong>Composable facades of primitive Rust utility crates for fellow c<span style="color:rgb(244, 162, 97);">rust</span>aceans.</strong>
+  <strong>Composable facades of primitive Rust utility crates for fellow crustaceans.</strong>
 </p>
 
 <p align="center">
