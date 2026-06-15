@@ -2,19 +2,19 @@
   <img src="./construction.png" alt="RustUse under construction" width="100%" />
 </p>
 
-<h1 align="center">RustUse</h1>
+<h1 align="center">RustUse (<span style="color:rgb(244, 162, 97);">Under Construction</span>)</h1>
 
 <p align="center">
-  <strong>Composable sets of primitive Rust utility crates for fellow Rustaceans.</strong>
+  <strong>Composable facades of primitive Rust utility crates for fellow c<span style="color:rgb(244, 162, 97);">rust</span>aceans.</strong>
 </p>
 
 <p align="center">
   <a href="https://rustuse.org">Documentation</a>
 </p>
 
-RustUse is an open-source collection of small, focused Rust utility crates organized into practical `use-*` sets.
+RustUse is an open-source collection of small, focused Rust utility crates organized into practical `use-*` facades.
 
-Each set is intended to stay narrow, documented, tested, and easy to compose without pulling in heavy frameworks or unnecessary dependencies.
+Each facade is intended to stay narrow, documented, tested, and easy to compose without pulling in heavy frameworks or unnecessary dependencies.
 
 > [!WARNING]
 > RustUse is under active development.
@@ -43,4 +43,4 @@ Useful contribution areas include crate design, documentation, examples, tests, 
 
 ## License
 
-RustUse projects are generally available under either the MIT License or the Apache License, Version 2.0, at your option, unless otherwise noted in a specific repository.
+RustUse projects are available under either the MIT License or the Apache License, Version 2.0, at your option.
